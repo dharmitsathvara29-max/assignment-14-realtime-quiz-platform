@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is Node.js runtime based on?",
+    "options": ["V8", "SpiderMonkey", "Chakra", "JVM"],
+    "correctOption": 0,
+    "explanation": "Node.js is built on Google Chrome's high-performance V8 JavaScript engine."
+  },
+  {
+    "question": "Which protocol does Socket.io upgrade HTTP connections to for real-time duplex communication?",
+    "options": ["HTTP/2", "WebSocket", "gRPC", "WebRTC"],
+    "correctOption": 1,
+    "explanation": "Socket.io starts with HTTP long-polling and upgrades to WebSocket for bi-directional streaming."
+  },
+  {
+    "question": "In the JavaScript Event Loop, which queue has the highest priority?",
+    "options": ["Task Queue (Macrotask)", "Microtask Queue (Promise/process.nextTick)", "Render Queue", "Timer Queue"],
+    "correctOption": 1,
+    "explanation": "Microtasks (Promises, process.nextTick) are drained completely before the next macrotask runs."
+  },
+  {
+    "question": "Which HTTP status code represents '429' in REST APIs?",
+    "options": ["Unauthorized", "Forbidden", "Too Many Requests", "Service Unavailable"],
+    "correctOption": 2,
+    "explanation": "HTTP 429 indicates that the client has exceeded rate limits by sending too many requests."
+  },
+  {
+    "question": "What is the primary advantage of Redis in real-time gaming architectures?",
+    "options": ["In-memory low-latency data access & Pub/Sub", "Automatic SQL schema migrations", "Infinite free disk storage", "Native video rendering"],
+    "correctOption": 0,
+    "explanation": "Redis provides sub-millisecond in-memory data structures and Pub/Sub message distribution."
+  },
+  {
+    "question": "Which CSS property is most performant for smooth 60fps animations?",
+    "options": ["margin-left", "top and left", "transform and opacity", "width and height"],
+    "correctOption": 2,
+    "explanation": "Transform and opacity can be handled directly by the GPU compositor without triggering layout or repaint."
+  },
+  {
+    "question": "In Git, what command creates and switches to a new branch in one step?",
+    "options": ["git checkout -b <name>", "git branch -n <name>", "git merge --new <name>", "git switch --all <name>"],
+    "correctOption": 0,
+    "explanation": "git checkout -b <name> (or git switch -c <name>) creates and switches to a branch immediately."
+  },
+  {
+    "question": "Which data structure operates on a First-In-First-Out (FIFO) principle?",
+    "options": ["Stack", "Queue", "Binary Heap", "Hash Table"],
+    "correctOption": 1,
+    "explanation": "A Queue processes elements in the order they arrive (FIFO), unlike a Stack (LIFO)."
+  },
+  {
+    "question": "What is the purpose of CORS in modern web security?",
+    "options": ["Encrypt database passwords", "Control cross-origin HTTP requests in browsers", "Speed up DNS lookups", "Minify JavaScript bundles"],
+    "correctOption": 1,
+    "explanation": "Cross-Origin Resource Sharing (CORS) lets servers declare which origins are permitted to access resources."
+  },
+  {
+    "question": "Which React hook is designed specifically for triggering side-effects after DOM updates?",
+    "options": ["useState", "useMemo", "useEffect", "useCallback"],
+    "correctOption": 2,
+    "explanation": "useEffect runs side effects such as data fetching, subscriptions, and DOM mutations after rendering."
+  }
+]
