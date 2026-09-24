@@ -2,6 +2,8 @@
 
 A Kahoot/Quizizz-style real-time multiplayer trivia battle arena built with **Node.js**, **Express.js**, and **Socket.io**. Featuring an authoritative game server with synchronized countdown timers, millisecond speed-based dynamic scoring, anti-cheat validation, and instant live leaderboard broadcasts.
 
+Live Link: https://assignment-14-realtime-quiz-platform-nfff.onrender.com
+
 ---
 
 ## 🚀 Key Highlights & Learning Outcomes
